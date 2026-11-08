@@ -2,10 +2,9 @@
 name = "sigmaos_usb"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS USB stack model: devices, endpoints, descriptors, hubs, host controller"
+license = "MIT"
+description = "SigmaOS usb component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_usb"
 path = "src/lib.rs"
-
-[dependencies]
