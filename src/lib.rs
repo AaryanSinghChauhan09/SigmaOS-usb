@@ -7,6 +7,9 @@
 
 #![forbid(unsafe_code)]
 
+/// Live USB image writer: device selection, validation, progress.
+pub mod sigmausbwriter;
+
 use std::fmt;
 /// Errors for `PlanError` operations. Fail-fast: invalid input is rejected.
 #[derive(Debug, Clone, PartialEq, Eq)]
